@@ -6,7 +6,10 @@
 
 ## Demo
 
-- Product Overview Screen
-  ![product overview screen](./product_overview_screen.png)
-- Product Detail Screen
-  ![product detail screen](./product_detail.png)
+### Product Overview Screen
+
+[product overview screen](./product_overview_screen.png)
+
+### Product Detail Screen
+
+[product detail screen](./product_detail.png)
