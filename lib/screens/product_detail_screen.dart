@@ -22,7 +22,20 @@ class ProductDetailScreen extends StatelessWidget {
         title: Text('Product Details'),
       ),
       body: Center(
-        child: Text("INI ADALAH PAGE PRODUK ${getProduct.title}"),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Image.network(
+              '${getProduct.imageUrl}',
+              width: double.infinity,
+              height: MediaQuery.of(context).size.height / 3,
+              fit: BoxFit.cover,
+            ),
+            Text("${getProduct.title}"),
+            Text("price \$ ${getProduct.price}"),
+            Text("${getProduct.description}"),
+          ],
+        ),
       ),
     );
   }
