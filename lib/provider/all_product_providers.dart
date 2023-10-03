@@ -1,7 +1,7 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 
-import '../model/product.dart';
+import 'product.dart';
 
 class ProductProvider with ChangeNotifier {
   final List<Product> _allProducts = List.generate(
